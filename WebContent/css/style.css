@@ -1,0 +1,38 @@
+@CHARSET "utf-8";
+[class^="col-"]{
+    height: 50px;
+    margin-bottom:1px;
+    text-align:center;
+    line-height:50px;
+    color:#fff;
+  }
+  .col-center{
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .center-block{
+    float: none;
+  }
+  label{
+    color: black;
+  }
+  h1{
+    color: black;
+  }
+  .form-signin {
+    display: flex;
+    flex-direction: column;
+  }
+  img{
+    align-self: center;
+    border-radius: 50%;
+  }
+  .card-body {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  button.btn {
+    margin-top: auto;
+  }
