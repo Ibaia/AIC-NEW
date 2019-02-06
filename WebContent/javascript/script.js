@@ -1,4 +1,4 @@
- $('#provincia').change(function(){
+$('#provincia').change(function(){
     $('#poblacion').removeAttr('disabled');
 });
 

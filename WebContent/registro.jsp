@@ -125,7 +125,7 @@
             <input name="check"type="checkbox" value="1" onclick= "submit.disabled = !this.checked"> Acepto las condiciones
             </label>
             </div>
-              <a href="index.html">
+              <a href="main.jsp">
                   <button name="submit" type="button" class="btn btn-lg btn-block btn-primary" disabled>Registrarse</button></a>
            </form>
           </div>
