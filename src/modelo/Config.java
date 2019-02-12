@@ -10,6 +10,6 @@ public interface Config {
 	//TODO rellenar el fichero de configuracion
 	public static final String BBDD = "reto";
 	public static final String HOST = "localhost";
-	public static final String USERNAME = "";
+	public static final String USERNAME = "root";
 	public static final String PASSWORD = "";
 }
