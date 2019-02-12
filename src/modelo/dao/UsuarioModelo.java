@@ -1,6 +1,8 @@
+
 package modelo.dao;
 
 import modelo.Conector;
+import modelo.bean.Usuario;
 
 public class UsuarioModelo extends Conector{
 
@@ -29,3 +31,4 @@ public class UsuarioModelo extends Conector{
 		//SELECT * FROM usuarios
 	}
 }
+

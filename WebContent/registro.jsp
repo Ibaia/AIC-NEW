@@ -1,4 +1,5 @@
 <!doctype html>
+
 <html lang="en">
   <head>
     <!-- Required meta tags -->
@@ -41,61 +42,65 @@
       <div class="container-fluid mr-1 ml-3">
         <div class="row">
           <div class="col-md-3 col-center">
-              <form action="" class="form-signin">
+
+              <form class="form-signin" action="UsuarioModelo">
+
                   <img class="mb-4" src="FOTO.png" alt="" width="100" height="100">
                   <h1 class="h3 mb-3 font-weight-normal">Register</h1>
   
           <div class="row">
               <div class="col-md-6"><label for="inputName" class="sr-only">Nombre</label>
-                  <input type="text" id="inputName" class="form-control" placeholder="Nombre" required autofocus>
+                  <input type="text" id="inputName" class="form-control" placeholder="Nombre" required autofocus name="nombre">
               </div>
   
               <div class="col-md-6"><label for="inputSurname" class="sr-only">Apellido</label>
-                  <input type="text" id="inputSurname" class="form-control" placeholder="Apellido" required>
+                  <input type="text" id="inputSurname" class="form-control" placeholder="Apellido" required name="apellido">
               </div> 
           </div>
           <div class="row">
               <div class="col-md-12"><label for="inputUser" class="sr-only">Usuario</label>
-                  <input type="text" id="inputUser" class="form-control" placeholder="Usuario" required>
+                  <input type="text" id="inputUser" class="form-control" placeholder="Usuario" required name="usuario">
               </div>
           </div>
           <div class="row">
               <div class="col-md-12">
                   <label for="inputEmail" class="sr-only">E-mail</label>
-                  <input type="text" id="inputEmail" class="form-control" placeholder="E-mail" required>
+                  <input type="text" id="inputEmail" class="form-control" placeholder="E-mail" required name="email">
               </div>
           </div>
           <div class="row">
               <div class="col-md-6">
                   <label for="inputPassword" class="sr-only">Contrasenia</label>
-                  <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+                  <input type="password" id="inputPassword" class="form-control" placeholder="Password" required name="contrasenia">
               </div>
               <div class="col-md-6 offset-md2">
                   <label for="inputPassword2" class="sr-only">Confirmacion</label>
-                  <input type="password" id="inputPassword2" class="form-control" placeholder="Confirmacion" required>
+                  <input type="password" id="inputPassword2" class="form-control" placeholder="Confirmacion" required name="contrasenia2">
               </div>
           </div>
           <div class="row">
               <div class="col-md-12">
                   <label for="inputDNI" class="sr-only">DNI</label>
-                  <input type="text" id="inputDNI" class="form-control" placeholder="DNI" required>
+                  <input type="text" id="inputDNI" class="form-control" placeholder="DNI" required name="dni">
               </div>
           </div>
           <div class="row">
               <div class="col-md-12">
                   <label for="inputEdad" class="sr-only">Edad</label>
-                  <input type="date" id="inputEdad" class="form-control" placeholder="Edad" required>
+
+                  <input type="text" id="inputEdad" class="form-control" placeholder="Edad" required name="edad">
+
               </div>
           </div>
           <div class="row">
               <div class="col-md-12">
                   <label for="inputDireccion" class="sr-only">Direccion</label>
-                  <input type="text" id="inputDireccion" class="form-control" placeholder="Direccion" required>
+                  <input type="text" id="inputDireccion" class="form-control" placeholder="Direccion" required name="direccion">
               </div>
           </div>
           <div class="row">
                 <div class="col-md-6">
-                        <select id="provincia" class="custom-select d-block w-100" required>
+                        <select id="provincia" class="custom-select d-block w-100" required name="provincia">
                             <option value="0" disabled selected>Elija una opcion</option> 
                             <option value="bizkaia">Bizkaia</option>
                             <option value="nafarroa">Nafarroa</option>
@@ -103,7 +108,7 @@
                         </select>
                 </div>
                 <div class="col-md-6">
-                        <select class="custom-select d-block w-100" name="poblacion" id="poblacion" disabled="disabled" >
+                        <select class="custom-select d-block w-100" name="poblacion" id="poblacion" disabled="disabled" name="ciudad">
                             <option value="0" disabled selected>Elija una opcion</option>
                             <option class="gipuzkoa" value="donosti">Donosti</option>
                             <option class="nafarroa" value="irun">Irun</option>
@@ -117,7 +122,7 @@
           <div class="row">
               <div class="col-md-10 offset-md-1">
                   <label for="inputCodigoPostal" class="sr-only">CodigoPostal</label>
-                  <input type="text" id="inputCodigoPostal" class="form-control" placeholder="CP" required>
+                  <input type="text" id="inputCodigoPostal" class="form-control" placeholder="CP" required name="cp">
               </div>
           </div>
           <div class="col-md-12">
@@ -125,7 +130,7 @@
             <input name="check"type="checkbox" value="1" onclick= "submit.disabled = !this.checked"> Acepto las condiciones
             </label>
             </div>
-              <a href="main.jsp">
+              <a href="viewUsuario.jsp">
                   <button name="submit" type="button" class="btn btn-lg btn-block btn-primary" disabled>Registrarse</button></a>
            </form>
           </div>
