@@ -23,10 +23,10 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="main.jsp">Inicio <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="registro.html">Registro</a>
+              <a class="nav-link" href="registro.jsp">Registro</a>
             </li>
           </ul>
           <form class="form-inline my-2 my-lg-0">
@@ -42,7 +42,9 @@
       <div class="container-fluid mr-1 ml-3">
         <div class="row">
           <div class="col-md-3 col-center">
-              <form class="form-signin" action="UsuarioModelo.java">
+
+              <form class="form-signin" action="UsuarioModelo">
+
                   <img class="mb-4" src="FOTO.png" alt="" width="100" height="100">
                   <h1 class="h3 mb-3 font-weight-normal">Register</h1>
   
@@ -85,7 +87,9 @@
           <div class="row">
               <div class="col-md-12">
                   <label for="inputEdad" class="sr-only">Edad</label>
+
                   <input type="text" id="inputEdad" class="form-control" placeholder="Edad" required name="edad">
+
               </div>
           </div>
           <div class="row">

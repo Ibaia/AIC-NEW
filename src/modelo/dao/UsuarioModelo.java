@@ -1,35 +1,30 @@
+
 package modelo.dao;
 
-import java.util.ArrayList;
-
-import javax.security.sasl.SaslException;
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
-
-import com.sun.corba.se.impl.presentation.rmi.IDLTypeException;
-
-import jdk.nashorn.internal.ir.RuntimeNode.Request;
 import modelo.Conector;
 import modelo.bean.Usuario;
 
-public class UsuarioModelo extends Conector{	
-	
-	
-	
-	public void addUser(Usuario usuario){
-		
+public class UsuarioModelo extends Conector{
 
-
+	UsuarioModelo() {
+		super();
+		// TODO Auto-generated constructor stub
 	}
 	
+	public void addUser(Usuario usuario) {
+		//Recive datos de la clase usuario y añade un nuevo usuario
+	}
 	
 	public void deleteUser(int id) {
 		//Recive el id y borra el usuario
 	}
-	public void updateUser(Usuario) {
+	
+	public void updateUser(Usuario usuario) {
 		//Recive datos de la clase usuario y lo   
 	}
-	public void selectAll() {
+	
+	public void viewAll() {
 		//Pasa la arraylist de usuarios mostrando todos los usuarios
 	}
 }
+
