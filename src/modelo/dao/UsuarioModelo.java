@@ -9,7 +9,7 @@ public class UsuarioModelo extends Conector{
 		// TODO Auto-generated constructor stub
 	}
 	
-	public void addUser(Usuario usuario) {
+	public void addUser(Usuario usuario) {a
 		//Recive datos de la clase usuario y añade un nuevo usuario
 	}
 	
