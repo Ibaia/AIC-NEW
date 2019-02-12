@@ -27,7 +27,7 @@ public class CrearUsuario extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
-		response.getWriter().append("Registro.jsp").append(request.getContextPath());
+		request.getRequestDispatcher("Resgitro.jsp").forward(request, response);
 	}
 
 	/**
