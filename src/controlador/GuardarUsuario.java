@@ -1,6 +1,7 @@
 package controlador;
 
 import java.io.IOException;
+
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -45,7 +46,7 @@ public class GuardarUsuario extends HttpServlet {
 		String contrasenia = request.getParameter("contrasenia");
 		String contrasenia2 = request.getParameter("contrasenia2");
 		String dni = request.getParameter("apelldniido");
-		int edad = Integer.parseInt(request.getParameter("edad"));
+		String fecha_nacimiento = request.getParameter("fecha_nacimiento");
 		String direccion = request.getParameter("direccion");
 		int cp = Integer.parseInt(request.getParameter("cp"));
 		String ciudad = request.getParameter("ciudad");
@@ -58,8 +59,8 @@ public class GuardarUsuario extends HttpServlet {
 		newUser.setContrasenia(contrasenia);
 		newUser.setContrasenia2(contrasenia2);
 		newUser.setDni(dni);
-		newUser.setEdad(edad);
-		newUser.setDireecion(direccion);
+		newUser.setFecha_nacimiento(fecha_nacimiento);
+		newUser.setDireccion(direccion);
 		newUser.setCp(cp);
 		newUser.setCiudad(ciudad);
 		newUser.setProvincia(provincia);
