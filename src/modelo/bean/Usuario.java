@@ -1,5 +1,7 @@
 package modelo.bean;
 
+import java.sql.Date;
+
 public class Usuario {
 
 	protected int id_usuario;
@@ -10,8 +12,8 @@ public class Usuario {
 	protected String contrasenia;
 	protected String contrasenia2;
 	protected String dni;
-	protected int edad;
-	protected String direecion;
+	protected Date fecha_nacimiento;
+	protected String direcion;
 	protected int cp;
 	protected String ciudad;
 	protected String provincia;
