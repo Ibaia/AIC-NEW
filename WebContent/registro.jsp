@@ -87,9 +87,7 @@
           <div class="row">
               <div class="col-md-12">
                   <label for="inputEdad" class="sr-only">Edad</label>
-
                   <input type="text" id="inputEdad" class="form-control" placeholder="Edad" required name="edad">
-
               </div>
           </div>
           <div class="row">
@@ -108,7 +106,7 @@
                         </select>
                 </div>
                 <div class="col-md-6">
-                        <select class="custom-select d-block w-100" name="poblacion" id="poblacion" disabled="disabled" name="ciudad">
+                        <select class="custom-select d-block w-100" name="ciudad" id="ciudad" disabled="disabled">
                             <option value="0" disabled selected>Elija una opcion</option>
                             <option class="gipuzkoa" value="donosti">Donosti</option>
                             <option class="nafarroa" value="irun">Irun</option>
@@ -130,8 +128,7 @@
             <input name="check"type="checkbox" value="1" onclick= "submit.disabled = !this.checked"> Acepto las condiciones
             </label>
             </div>
-              <a href="viewUsuario.jsp">
-                  <button name="submit" type="button" class="btn btn-lg btn-block btn-primary" disabled>Registrarse</button></a>
+                <button name="submit" type="submit" class="btn btn-lg btn-block btn-primary" disabled>Registrarse</button>
            </form>
           </div>
       </div>  
@@ -144,6 +141,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
     <script type="text/javascript" src="../js/bootstrap.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-    <script src="javascript/script.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
