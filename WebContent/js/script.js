@@ -1,12 +1,12 @@
 $('#provincia').change(function(){
-    $('#poblacion').removeAttr('disabled');
+    $('#ciudad').removeAttr('disabled');
 });
 
 $('document').ready(function(){
     $('#provincia').on("change", function(e){
         var provinciaSeleccionada = $(this).val();
-        $('#poblacion option').show();
-        $('#poblacion option').not('.'+provinciaSeleccionada).hide()
+        $('#ciudad option').show();
+        $('#ciudad option').not('.'+provinciaSeleccionada).hide()
     }) 
 
 

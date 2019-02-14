@@ -43,7 +43,7 @@
         <div class="row">
           <div class="col-md-3 col-center">
 
-              <form class="form-signin" action="UsuarioModelo">
+              <form class="form-signin" action="GuardarUsuario" method="post">
 
                   <img class="mb-4" src="FOTO.png" alt="" width="100" height="100">
                   <h1 class="h3 mb-3 font-weight-normal">Register</h1>
@@ -87,7 +87,7 @@
           <div class="row">
               <div class="col-md-12">
                   <label for="inputEdad" class="sr-only">Edad</label>
-                  <input type="text" id="inputEdad" class="form-control" placeholder="Edad" required name="edad">
+                  <input type="text" id="inputEdad" class="form-control" placeholder="Edad" required name="fecha_nacimiento">
               </div>
           </div>
           <div class="row">
