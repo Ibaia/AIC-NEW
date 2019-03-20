@@ -41,7 +41,7 @@
         <h1 class="text-center">AIC</h1>
       </div>
       <div class="container-fluid mr-1 ml-3">
-      	<h2>Superluna</h2>
+      	<h2>Superiakisoup juju</h2>
 		<p>Aunque a esta superluna se la conoce como Luna llena de marzo, en la cultura popular del hemisferio norte recibe el nombre de 'Luna llena de gusano', ya que es el momento en el que el suelo, teóricamente, empieza a descongelarse y aparecen las lombrices. Los indios americanos también la llamaban 'Luna cuervo', pues coincidía con el graznido de los cuervos que estos animales realizan para despedir el invierno y anunciar la primavera.</p>  
        	<p>Durante toda la primavera Marte será visible tras la puesta de Sol y al amanecer se verán Venus, Saturno y Júpiter, que también será visible durante toda la noche al final de la primavera. Sin embargo, a lo largo de esta estación no se producirá ningún eclipse de Sol o Luna.</p>         
       </div>
